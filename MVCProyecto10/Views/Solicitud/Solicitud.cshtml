@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Solicitante</title>
+    <link href="~/css/Proyecto10.css" rel="stylesheet" />
+    <link href="~/metro/css/metro.css" rel="stylesheet" />
+    <link href="~/metro/css/metro.min.css" rel="stylesheet" />
+    <link href="~/metro/css/metro-icons.css" rel="stylesheet" />
+    <script src="~/metro/js/metro.js"></script>
+
+
+</head>
+<header>
+    <img src="solologo.jpg" class="imagenlogo">
+</header>
+<body>
+    <div class="grid contenedorPrincipal">
+        <div class="cell flex-align-self-start"></div>
+        <div class="cell flex-align-self-center">
+            <div class="d-flex flex-justify-center"><h1>Solicitante</h1></div>
+            <div class="d-flex flex-justify-center">
+                <img src="" class="" style="width: 200px; height: 150px;" />
+            </div>
+            <div class="d-flex flex-justify-center">
+                <form>
+                    <div class="input-control text">
+                        <input class="input-large mw-100" type="text" data-role="input" placeholder="Nombre" required>
+                        <input class="input-large mw-100" type="text" data-role="input" placeholder="Apellido" required>
+                    </div>
+                    <div class="input-control text">
+                        <input type="date" data-role="datepicker" data-min-year="1950" data-max-year="2020" data-value="2020-01-01">
+                        <input class="input-large mw-100" type="text" data-role="input" placeholder="NIT" required>
+                        <select data-role="select">
+                            <optgroup label="Tipo Moneda">
+                                <option value="Quetzal">Quetzal</option>
+                                <option value="Dolar">Dolar</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="input-control text">
+                        <input class="input-large mw-100" type="text" data-role="input" placeholder="Solicitud" required>
+                        <input class="input-large mw-100" type="text" data-role="input" placeholder="PreSolicitud" required>
+                        <input type="date" data-role="datepicker" data-min-year="1950" data-max-year="2020" data-value="2020-01-01">
+                    </div>
+                    <div class="input-control text">
+                        <input class="input-large mw-100" type="text" data-role="input" placeholder="Estado Cuenta" required>
+                        <input class="input-large mw-100" type="text" data-role="input" placeholder="Estado Servicios" required>
+                        <input class="input-large mw-100" type="text" data-role="input" placeholder="Estatus" required>
+                    </div>
+                        <button class="button alert large w-100" type="submit" name="guardar"> <span class="">Guardar</span><img src="img/trash.jpg" width="45px" height="45px"></button>
+                        <button class="button alert large w-100" type="submit" name="buscar"><span class="">Buscar</span><img src="img/search.jpg" width="45px" height="45px"></button>
+                        <button class="button alert large w-100" type="submit" name="eliminar"><span class="">Eliminar</span><img src="img/save.jpg" width="45px" height="45px"></button>
+
+                </form>
+            </div>
+        </div>
+        <div class="cell flex-align-self-end"></div>
+    </div>
+</body>
+</html>
